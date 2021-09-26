@@ -2,7 +2,7 @@ import Contants from 'expo-constants'
 
 const settings = {
     dev: {
-        apiUrl: "http://172.20.10.4:9000/api"
+        apiUrl: "https://dwit-api.herokuapp.com/api"
     },
     staging: {
         apiUrl: "https://dwit-api.herokuapp.com/api"

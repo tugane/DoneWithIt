@@ -16,7 +16,13 @@
     },
     "assetBundlePatterns": ["**/*"],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier":"com.tuganeamiel.donwwithit",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "package":"com.tuganeamiel.donewithit",
+      "versionCode": 1
     },
     "description": "A marketplace for selling the stuff you don't need anymore.",
     "notification": {
