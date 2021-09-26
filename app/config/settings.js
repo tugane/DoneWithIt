@@ -5,17 +5,16 @@ const settings = {
         apiUrl: "http://172.20.10.4:9000/api"
     },
     staging: {
-        apiUrl: "http://172.20.10.4:9000/api"
+        apiUrl: "https://dwit-api.herokuapp.com/api"
     },
     prod: {
-        apiUrl: "http://172.20.10.4:9000/api"
+        apiUrl: "https://dwit-api.herokuapp.com/api"
     },
 }
 
 const getCurrentStettings = () => {
     if (__DEV__) return settings.dev
-    if (Contants.manifest.releaseChannel === 'staging') return settings.staging
-    
+    if (Contants.manifest.releaseChannel === 'staging') return settings.staging 
     return settings.prod
 }
 
